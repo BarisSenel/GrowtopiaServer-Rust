@@ -17,7 +17,7 @@ tracing-subscriber = { version = "0.3", features = ["env-filter", "registry", "f
 tracing-appender = "0.2"
 openssl = "0.10.75"
 rustls = { version = "0.23.36", default-features = false, features = ["ring", "logging", "std", "tls12"] }
-rusty_enet = { path = "vendor/rusty_enet" }
+rusty_enet = { path = "crates/rusty_enet" }
 rusqlite = { version = "0.38.0", features = ["bundled"] }
 rand = "0.8"
 serde = { version = "1.0", features = ["derive"] }
